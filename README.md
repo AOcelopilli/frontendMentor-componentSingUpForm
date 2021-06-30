@@ -36,8 +36,8 @@ This is a preview of the result of this challenge.
 
 ### Links
 
-- Solution URL: [Visit]()
-- Live Site URL: [Visit]()
+- Solution URL: [Visit](https://www.frontendmentor.io/solutions/component-with-sign-up-form-html-css-js-flex-grid-1TRrdet2J)
+- Live Site URL: [Visit](https://aocelopilli.github.io/frontendMentor-componentSingUpForm/)
 
 ## My process
 
