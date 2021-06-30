@@ -59,6 +59,7 @@ body {
   padding: 1.5rem 4rem;
   border-radius: 0.8rem;
   border: transparent;
+  cursor: pointer;
   color: white;
   box-shadow: 0 10px 0px rgba(0, 0, 0, 0.2);
   transition: transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -131,6 +132,7 @@ body {
 #form input[type="submit"] {
   background-color: var(--main-green);
   color: white;
+  cursor: pointer;
   border: none;
   font-weight: bolder;
   font-size: 1rem;
@@ -165,4 +167,50 @@ body {
 
 .attribution a {
   color: hsl(251, 89%, 37%);
+}
+
+@media (min-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 2rem 5%;
+    min-height: 100vh;
+  }
+
+  #main {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #contact {
+    width: 90%;
+  }
+
+  #btn-trial {
+    width: 100%;
+    background-color: var(--main-blue);
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.5rem 4rem;
+    border-radius: 0.8rem;
+    border: transparent;
+    color: white;
+    box-shadow: 0 10px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  #form {
+    width: 100%;
+    background-color: #fff;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+
+  footer {
+    justify-self: center;
+    grid-column: span 2;
+  }
 }
